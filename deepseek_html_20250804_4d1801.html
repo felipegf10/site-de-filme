@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliflix - Filmes e Séries</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .navbar {
+            background-color: #111;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #e50914;
+        }
+        
+        .main-content {
+            padding: 30px;
+        }
+        
+        .featured-movie {
+            margin-bottom: 40px;
+        }
+        
+        .movie-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #e50914;
+        }
+        
+        .movie-tag {
+            background-color: #e50914;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 14px;
+            display: inline-block;
+            margin-right: 10px;
+        }
+        
+        .movie-description {
+            font-size: 18px;
+            margin: 15px 0;
+            line-height: 1.4;
+        }
+        
+        .highlight {
+            font-weight: bold;
+            color: #e50914;
+        }
+        
+        .mobile-notice {
+            font-size: 14px;
+            color: #aaa;
+            margin-top: 10px;
+        }
+        
+        .categories {
+            margin-top: 30px;
+        }
+        
+        .category-title {
+            font-size: 20px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #e50914;
+            padding-bottom: 5px;
+            display: inline-block;
+        }
+        
+        .movie-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 15px;
+        }
+        
+        .movie-card {
+            background-color: #222;
+            border-radius: 5px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        
+        .movie-card:hover {
+            transform: scale(1.05);
+        }
+        
+        .movie-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .movie-info {
+            padding: 10px;
+        }
+        
+        .movie-name {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .movie-time {
+            font-size: 12px;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">FELIFLIX</div>
+        <div class="menu">
+            <!-- Menu items would go here -->
+        </div>
+    </nav>
+    
+    <div class="main-content">
+        <div class="featured-movie">
+            <div class="movie-tag">#filme-em-destaque</div>
+            <h1 class="movie-title">ATRAVÉS DO FELIVERSO</h1>
+            
+            <p class="movie-description">
+                ATRAVÉS DO FELIVERSO SUPERA O ANTERIOR<br>
+                <span class="highlight">FILME DO ANO</span><br>
+                Disponível também no <span class="highlight">mobile</span>
+            </p>
+            
+            <p class="mobile-notice">Assista em qualquer dispositivo</p>
+            
+            <div class="movie-time">1:52</div>
+        </div>
+        
+        <div class="categories">
+            <h2 class="category-title">Filmes e séries</h2>
+            <div class="movie-grid">
+                <!-- Movie cards would go here -->
+                <div class="movie-card">
+                    <img src="https://via.placeholder.com/150x225" alt="Filme 1">
+                    <div class="movie-info">
+                        <div class="movie-name">Aventura Felina</div>
+                        <div class="movie-time">1:45</div>
+                    </div>
+                </div>
+                
+                <div class="movie-card">
+                    <img src="https://via.placeholder.com/150x225" alt="Filme 2">
+                    <div class="movie-info">
+                        <div class="movie-name">O Gato de Botas</div>
+                        <div class="movie-time">1:30</div>
+                    </div>
+                </div>
+                
+                <!-- More movie cards... -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
