@@ -1,7 +1,5 @@
 # 🎬 Feliflix - Plataforma de Streaming
 
-[![GitHub license](https://img.shields.io/github/license/seu-usuario/Feliflix-Site)](https://github.com/seu-usuario/Feliflix-Site)
-[![GitHub stars](https://img.shields.io/github/stars/seu-usuario/Feliflix-Site)](https://github.com/seu-usuario/Feliflix-Site/stargazers)
 
 
 ![Screenshot da Homepage](images/screenshot.png)
